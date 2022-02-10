@@ -36,4 +36,11 @@ my $substring = "learning";
 print("The substring $substring found at position $search in string $string4", "\n"); 
 
 # Get or modify substring inside a strinx
-# pick up here: https://www.perltutorial.org/perl-string/
+my $string5 = "Orange is my favorite color";
+my $color = substr($string5, 0, 6);
+my $end = substr($string5, -5);
+print($end, ": ", $color, "\n");
+
+# Replace substring
+substr($string5, 0, 6, "Purple");
+print($string5, "\n");
