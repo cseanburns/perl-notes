@@ -19,7 +19,7 @@ my $name = 'Sean';
 my $string4 = qq/"Are you learning Perl strings today?" $name asked./;
 print($string4 ,"\n");
 
-# Find lenght of a string
+# Find length of a string
 print(length($string4),"\n");
 
 # Print string in upper case
